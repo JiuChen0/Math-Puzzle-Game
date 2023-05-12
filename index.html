@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Set the title of the page -->
+        <title>Magic Math</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <!-- Main title of the page -->
+            <h1>Magic Math!</h1>
+        </header>
+        <div id="game">
+            <!-- Show goal number -->
+            <p><span class="target-label">Goal</span>: <span id="target"></span></p>
+            <!-- shows the numbers that can be selected -->
+            <div id="numbers"></div>
+            <!-- Displays the action area, including the operators and the "=" button -->
+            <div id="input-area">
+                <div id="operators"></div>
+                <button id="calculate">=</button>
+            </div>
+            <!-- Show "Restart" button -->
+            <div id="restart-area">
+                <button id="restart">RESTART</button>
+            </div>
+            <!-- Show current operation -->
+            <h2>Current Operation:</h2>
+            <div id="current-operation"></div>
+            <!-- Show work area -->
+            <h2>Work Area</h2>
+            <div id="results"></div>
+            <!-- shows the number of wins and losses -->
+            <h2>Wins: <span id="wins">0</span></h2>
+            <h2>Losses:<span id="losses">0</span></h2>
+            <!-- Show message -->
+            <h2 id="message"></h2>
+        </div>
+        <footer>
+            <p>Creative By: Jiu Chen</p>
+        </footer>
+        <script src="game.js"></script>
+    </body>
+</html>

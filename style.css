@@ -1,0 +1,96 @@
+body {
+    /* Set the font, background color, margins and text alignment for the entire page */
+    font-family: Arial, sans-serif;
+    background-color: #a9edc2;
+    padding: 20px;
+    text-align: center;
+}
+
+#game {
+     /* Set the maximum width of the game area, automatic outer margins (for center alignment),
+     background color, inner margins, and border rounding */
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    /* Set the color of the first and second level headers */
+    color: #333;
+}
+
+header {
+    /* Set the background color, inner margin and text alignment for the page header area */
+    background-color: #c4f9ce;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    /* Set the background color, 
+    inner margin and text alignment for the bottom area of the page, 
+    as well as the top outer margin */
+    background-color: #cffbd1;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+p, div {
+    /* Set the bottom margins of paragraph and div elements */
+    margin-bottom: 10px;
+}
+
+button {
+    /* Set the font size, inner margin, right and bottom margins, border, border rounding and text color of the button */
+    font-size: 20px; 
+    padding: 10px 20px; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+button:active {
+    /* Set the zoom effect of the button when it is clicked */
+    transform: scale(0.95);
+}
+
+#numbers button {
+    /* Set the background color of the button inside the element with id numbers */
+    background-color: #5dcdec;
+}
+
+#input-area button {
+    /* Set the background color of the button inside the element with id input-area */
+    background-color: #007bff;
+}
+
+#calculate {
+    /* Set the background color of the element (button) with the id calculate */
+    background-color: #28a745;
+}
+
+#restart {
+    /* Set the background color of the element (button) whose id is restart */
+    background-color: #dc3545;
+}
+
+#results p {
+    /* Set the bottom border and bottom inner margin of the paragraph element inside the element with id results */
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+#target {
+    /* Set the font size of the element with id target (display target number) */
+    font-size: 24px;
+}
+
+.target-label {
+    /* Set the font size of the element with class target-label (the target label) */
+    font-size: 24px;
+}
